@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AmbiguousPhoenix</title>
+        <link rel="icon" type="image/png" href="assets/favicon.png" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="framework/styles.css">
+        <link rel="stylesheet" href="framework/colors.css">
+        <link rel="stylesheet" href="framework/display.css">
+        <script src="framework/scripts.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-blog" onload="document.body.style.opacity='1'">
+
+		<!-- Navbar Desktop-->
+        <nav class="navbar">
+            <div class="container-fluid" style="padding: 0px !important;">
+				<div class="navbarLogo">
+					<img class="navbarLogo-image" src="assets/navbarHexagons.svg"/>
+					<a href="index.html">
+                        <div class="navbarLogo-text">
+                            <span>AmbiguousPhoenix</span>
+                        </div>
+                    </a>
+				</div>
+                <div class="navbarLinks">
+					<a href="cyberthug.html">
+						<div class="navbarLinks-other" style="width: 138px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/notConformed/cyberthug.svg"/>
+							<span class="navbarLinks-text">Cyberthug</span>
+						</div>
+					</a>
+					<a href="phoenixNest.html">
+						<div class="navbarLinks-other" style="width: 158px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/games.svg"/>
+							<span class="navbarLinks-text">Phoenix Nest</span>
+						</div>
+					</a>
+					<div class="navbarLinksDivider"></div>
+					<a href="school.html">
+    					<div class="navbarLinks-other" style="width: 108px;">
+    						<img class="navbarLinks-image" src="assets/vectorIcons/school.svg"/>
+							<span class="navbarLinks-text">School</span>
+    					</div>
+					</a>
+					<a href="apps.html">
+						<div class="navbarLinks-other" style="width: 186px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/placeholder.svg"/>
+							<span class="navbarLinks-text">Apps and Games</span>
+						</div>
+					</a>
+					<div class="navbarLinks-active" style="width: 150px;">
+						<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
+						<span class="navbarLinks-text">Documents</span>
+					</div>
+					<div class="navbarLinksDivider"></div>
+    				<a href="about.html">
+						<div class="navbarLinks-other" style="width: 106px;">
+    						<img class="navbarLinks-image" src="assets/vectorIcons/about.svg"/>
+							<span class="navbarLinks-text">About</span>
+    					</div>
+    				</a>
+                </div>
+                <div class="socialMediaNavbar">
+					<div class="socialMediaNavbar-link" style="border-radius: 13px 6px 6px 13px;">
+                        <a href="https://www.youtube.com/channel/UC3IHSgAeydyoG2bnNkp2FmA">
+                            <img class="socialMediaLink-image" src="assets/vectorLogos/youtube.svg"/>
+                        </a>
+                    </div>
+                    <div class="socialMediaNavbar-link" style="border-radius: 6px;">
+                        <a href="https://twitter.com/ambiguousfeenix">
+                            <img class="socialMediaLink-image" src="assets/vectorLogos/twitter.svg"/>
+                        </a>
+                    </div>
+                    <div class="socialMediaNavbar-link" style="border-radius: 6px 13px 13px 6px;">
+                        <a href="https://github.com/ambiguousphoenix">
+                            <img class="socialMediaLink-image" src="assets/vectorLogos/github.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbarMenu" onclick="toggleNavbarMenuItems()">
+					<img style="filter:invert();" src="assets/vectorIcons/menu.svg"/>
+				</div>
+            </div>
+			<div id="navbarMenuItems">
+				<div class="divider"></div>
+				<a href="cyberthug.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/notConformed/cyberthug.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Cyberthug</span>
+					</div>
+				</a>
+				<a href="phoenixNest.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/games.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Phoenix Nest</span>
+					</div>
+				</a>
+				<a href="school.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/school.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">School</span>
+					</div>
+				</a>
+				<a href="photography.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/camera.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Photography</span>
+					</div>
+				</a>
+				<a href="articles.html" class="disabled">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">Articles</span>
+					</div>
+				</a>
+				<a href="about.html">
+					<div class="buttonDownload">
+						<img src="assets/vectorIcons/about.svg" style="filter: invert(); height: 100%;"/>
+						<span style="line-height: 2rem; margin-left: 1rem;">About</span>
+					</div>
+				</a>
+			</div>
+        </nav>
+
+
+        <div class="colorStrip"></div>
+
+
+		<!-- Main section -->
+		<section class="section" style="padding-bottom: 30rem;">
+			<div class="container" style="margin-top: 8rem;">
+				<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Workbooks</h2>
+				<div class="row">
+
+					<div class="column3 card bg-blog2" style="padding: 0;">
+                        <span class="card-title" style="margin-left: 1rem; line-height: 4rem;">Semester 1, 2022</span>
+						<div class="divider"></div>
+						<a href=" " class="disabled" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Proposal</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Major Projects</span>
+								</div>
+							</div>
+						</a>
+						<a href=" " class="disabled" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Photogrammetry</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Applied Media Studio</span>
+								</div>
+							</div>
+						</a>
+						<a href=" " class="disabled" style="margin-top: 2rem;">
+							<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Practitioner research report</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Context and Practice</span>
+								</div>
+							</div>
+						</a>
+                    </div>
+
+					<div class="column3 card bg-blog2" style="padding: 0;">
+                        <span class="card-title" style="margin-left: 1rem; line-height: 4rem;">Semester 1, 2021</span>
+						<div class="divider"></div>
+						<a href="files/2021-sem1-creativeEnterprise.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Art exhibition proposal</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Creative Enterprise</span>
+								</div>
+							</div>
+						</a>
+						<a href="files/2021-sem1-imageMaking.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Techniques</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Image Making Studio</span>
+								</div>
+							</div>
+						</a>
+						<a href="files/2021-sem1-appliedMedia.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Cyberthug</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Applied Media Studio</span>
+								</div>
+							</div>
+						</a>
+						<div class="divider"></div>
+                        <span class="card-title" style="margin-left: 1rem; line-height: 4rem;">Semester 2, 2021</span>
+						<div class="divider"></div>
+						<a href="files/2021-sem2-imageMaking.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Techniques</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Image Making Studio</span>
+								</div>
+							</div>
+						</a>
+						<a href="files/2021-sem2-appliedMedia.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Cyberthug Core</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Applied Media Studio</span>
+								</div>
+							</div>
+						</a>
+						<a href="files/2021-sem2-appliedMedia-cyberthugDelta.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Cyberthug Remake</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Applied Media Studio</span>
+								</div>
+							</div>
+						</a>
+						<a href="files/2021-sem2-creativeStudio.pdf" style="margin-top: 2rem;">
+							<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
+								<img src="assets/vectorIcons/workbook.svg" style="filter: invert(); height: 100%;"/>
+								<div class="objectLink-text2">
+									<span style="line-height: 1.2rem;">Loops on a theme</span>
+									<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem;">Creative Studio</span>
+								</div>
+							</div>
+						</a>
+                    </div>
+
+				</div>
+			</div>
+
+			<div class="container" style="margin-top: 8rem;">
+				<h2 class="section-heading textColor-secondary" style="text-align: left !important;">Tutorials</h2>
+				<div class="row">
+
+					<a class="column2" href="documents/aces-workflow-for-maya-renderman-and-adobe.html" style="transform: scale(0.95);">
+						<div class="cardBlog shadow-small bg-blog2">
+							<img class="cardBlog-image img-fluid" src="assets/images/documents/aces-workflow-for-maya-renderman-and-adobe.jpg"/>
+							<div class="cardBlog-text bg-blueLight">
+								<span class="blog-title textColor-primary">ACES workflow for Maya, RenderMan and Adobe</span>
+								<br>
+								<span class="textColor-secondary">Learn how to manage your 3D renders in an industry-standard colour space</span>
+							</div>
+	                    </div>
+					</a>
+
+				</div>
+			</div>
+        </section>
+
+
+        <!-- Copyright -->
+        <div class="footer">
+            <div class="colorStrip"></div>
+            <span class="footer-text">&copy; AmbiguousPhoenix 2022</span>
+        </div>
+
+    </body>
+</html>

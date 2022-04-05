@@ -94,7 +94,7 @@ span {
 
 .section {
 	padding-top: 4rem;
-	padding-bottom: 16rem;
+	padding-bottom: 12rem;
 }
 
 .section-heading {
@@ -1094,6 +1094,7 @@ span {
 	transition: all 0.15s ease-out;
 	width: auto;
 	height: auto;
+	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	display: inline-flex;
 	flex-direction: row;
@@ -1145,6 +1146,13 @@ span {
 }
 
 .objectLink-text {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	margin-left: 1rem;
+}
+
+.objectLink-text2 {
 	display: flex;
 	flex-direction: column;
 	height: auto;

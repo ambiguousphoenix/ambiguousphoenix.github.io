@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="bg-blog" onload="document.body.style.opacity='1'">
+    <body class="bg-default" onload="document.body.style.opacity='1'">
 
 		<!-- Navbar Desktop-->
         <nav class="navbar">
@@ -46,16 +46,16 @@
 							<span class="navbarLinks-text">School</span>
     					</div>
 					</a>
-					<a href="photography.html">
-						<div class="navbarLinks-other" style="width: 156px;">
-							<img class="navbarLinks-image" src="assets/vectorIcons/camera.svg"/>
-							<span class="navbarLinks-text">Photography</span>
+					<div class="navbarLinks-active" style="width: 186px;">
+						<img class="navbarLinks-image" src="assets/vectorIcons/placeholder.svg"/>
+						<span class="navbarLinks-text">Apps and Games</span>
+					</div>
+					<a href="documents.html">
+						<div class="navbarLinks-other" style="width: 150px;">
+							<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
+							<span class="navbarLinks-text">Documents</span>
 						</div>
 					</a>
-					<div class="navbarLinks-active" style="width: 116px;">
-						<img class="navbarLinks-image" src="assets/vectorIcons/workbook.svg"/>
-						<span class="navbarLinks-text">Articles</span>
-					</div>
 					<div class="navbarLinksDivider"></div>
     				<a href="about.html">
 						<div class="navbarLinks-other" style="width: 106px;">
@@ -130,31 +130,34 @@
         <div class="colorStrip"></div>
 
 
-        <!-- Header -->
-        <div class="pageBanner">
-            <div class="pageBanner-fadeBlue">
-                <span class="pageBanner-text">ARTICLES</span>
-            </div>
-        </div>
+		<!-- Main section -->
+		<section class="section" style="padding-bottom: 30rem;">
+			<div class="container" style="margin-top: 8rem;">
+				<h2 class="section-heading textColor-secondary" style="text-align: left !important;">All apps</h2>
+				<div class="row">
 
-
-		<!-- Articles -->
-        <section class="section">
-            <div class="container">
-                <div class="row" style="margin-bottom: 20rem;">
-
-					<a class="column3" href="articles/aces-workflow-for-maya-renderman-and-adobe.html" style="transform: scale(0.95);">
-						<div class="cardBlog shadow-small bg-blueLight">
-							<img class="cardBlog-image img-fluid" src="assets/images/articles/aces-workflow-for-maya-renderman-and-adobe.jpg"/>
-							<div class="cardBlog-text bg-blueLight">
-								<span class="blog-title textColor-primary">ACES workflow for Maya, RenderMan and Adobe</span>
+					<div class="column3" style="transform: scale(0.95);">
+						<div class="card bg-default2" style="height: auto; padding: 0;">
+							<div>
+								<img src="assets/images/apps/yoobeeTimetable.png" style="width: 25%; padding-top: 4rem; margin-bottom: 2rem; margin-left: auto; margin-right: auto; display: block;"/>
+								<span style="font-size: 1.6rem; font-weight: 500; justify-content: center; display: flex; padding-bottom: 4rem;">Yoobee Timetable</span>
+								<div class="divider"></div>
+								<a href="files/yoobeeTimetable-v10.1.1.apk">
+									<div class="buttonDownload" style="border-radius: 0 0 1.5rem 1.5rem;">
+										<img src="assets/vectorLogos/android.svg" style="height: 100%;"/>
+										<div class="objectLink-text2">
+											<span style="line-height: 1.2rem; margin-left: 1rem;">Download for Android (v10.1.1)</span>
+											<span class="textColor-secondary" style="line-height: 1.2rem; font-size: 0.8rem; margin-left: 1rem;">10 November 2017</span>
+										</div>
+									</div>
+								</a>
 							</div>
-	                    </div>
-					</a>
+						</div>
+					</div>
 
 				</div>
-            </div>
-        </section>
+			</div>
+		</section>
 
 
         <!-- Copyright -->

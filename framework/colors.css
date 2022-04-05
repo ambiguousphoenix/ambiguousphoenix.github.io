@@ -39,8 +39,16 @@
     background-color: #303030;
 }
 
+.bg-default2 {
+    background-color: #404040;
+}
+
 .bg-blog {
 	background-color: #3a435b;
+}
+
+.bg-blog2 {
+	background-color: #4b5776;
 }
 
 .bg-blueLight {
